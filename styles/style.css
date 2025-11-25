@@ -1,0 +1,80 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.topContainer {
+    display: flex;
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* justify-content:space-evenly; */
+
+    /* doing align wont do anything bcos the container contaionms all the horizontal axis, to allow align, we need to change the height */
+    /* height: 100%;
+    align-items: center; */
+
+    /* to make the content go to next line */
+    /* flex-wrap: wrap;
+    align-content: space-between; */
+
+
+    /* flex direction */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+
+    width: 90%;
+    height: 100%;
+    background-color: rgb(105, 103, 103);
+    border: 2px solid black;
+}
+
+.sectionOneBox {
+    margin: auto;
+}   
+
+.sectionOneTopBox {
+    display: flex;
+}
+
+
+.box1 {
+    /* border: .1px solid; */
+    /* text-align:left; */
+    /* font-size: 30px; */
+    width: 150%;
+    display: flex;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.nameTitle {
+    margin-left: 20px;
+}
+
+.box2 {
+    /* border: .1px solid; */
+    /* text-align:left; */
+    font-size: 20px;
+}
+
+.box3 {
+    /* border: .1px solid; */
+    /* text-align:left; */
+    font-size: 15px;
+}
